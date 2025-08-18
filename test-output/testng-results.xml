@@ -1,34 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="13" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-18T23:41:48 IST" name="Loan Department" finished-at="2025-08-18T23:41:49 IST" duration-ms="411">
+  <suite started-at="2025-08-19T00:45:02 IST" name="Default suite" finished-at="2025-08-19T00:45:02 IST" duration-ms="210">
     <groups>
       <group name="Smoke">
-        <method signature="CarLoan.mobileLogoutCar()[pri:0, instance:TestNG_Basics.CarLoan@f5958c9]" name="mobileLogoutCar" class="TestNG_Basics.CarLoan"/>
-        <method signature="HomeLoan.webLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@77c2494c]" name="webLoginHome" class="TestNG_Basics.HomeLoan"/>
-        <method signature="NewClass_TestNG.homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@477b4cdf]" name="homeLoan" class="TestNG_Basics.NewClass_TestNG"/>
+        <method signature="NewClass_TestNG.homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" name="homeLoan" class="TestNG_Basics.NewClass_TestNG"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-08-18T23:41:48 IST" name="Personal Loan" finished-at="2025-08-18T23:41:49 IST" duration-ms="411">
-      <class name="TestNG_Basics.CarLoan">
-        <test-method signature="mobileLogoutCar()[pri:0, instance:TestNG_Basics.CarLoan@f5958c9]" started-at="2025-08-18T23:41:49 IST" name="mobileLogoutCar" finished-at="2025-08-18T23:41:49 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLogoutCar -->
-      </class> <!-- TestNG_Basics.CarLoan -->
-      <class name="TestNG_Basics.HomeLoan">
-        <test-method signature="webLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@77c2494c]" started-at="2025-08-18T23:41:49 IST" name="webLoginHome" finished-at="2025-08-18T23:41:49 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginHome -->
-      </class> <!-- TestNG_Basics.HomeLoan -->
+    <test started-at="2025-08-19T00:45:02 IST" name="Default test" finished-at="2025-08-19T00:45:02 IST" duration-ms="210">
       <class name="TestNG_Basics.NewClass_TestNG">
-        <test-method signature="homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@477b4cdf]" started-at="2025-08-18T23:41:49 IST" name="homeLoan" finished-at="2025-08-18T23:41:49 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" started-at="2025-08-19T00:45:02 IST" name="preRequisite" finished-at="2025-08-19T00:45:02 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" started-at="2025-08-19T00:45:02 IST" name="homeLoan" finished-at="2025-08-19T00:45:02 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoan -->
+        <test-method signature="parameterTest(java.lang.String)[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" started-at="2025-08-19T00:45:02 IST" name="parameterTest" finished-at="2025-08-19T00:45:02 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method parameterTest but has not been marked @Optional or defined
+in C:\Users\localadminuser\AppData\Local\Temp\testng-eclipse-1366171606\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method parameterTest but has not been marked @Optional or defined
+in C:\Users\localadminuser\AppData\Local\Temp\testng-eclipse-1366171606\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest -->
       </class> <!-- TestNG_Basics.NewClass_TestNG -->
-    </test> <!-- Personal Loan -->
-  </suite> <!-- Loan Department -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

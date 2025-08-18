@@ -19,13 +19,13 @@ public class HomeLoan {
 		System.out.println("Execute me at the end");
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void mobileLoginHome()
 	{
 		System.out.println("Mobile Login Home Loan");
 	}
 	
-	@Test
+	@Test(dependsOnMethods = {"webLoginHome"})
 	public void APILoginHome()
 	{
 		System.out.println("API Login Home Loan");
