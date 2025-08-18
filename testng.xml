@@ -6,20 +6,12 @@
 			<class name="TestNG_Basics.Basic_TestCase" />
 			<class name="TestNG_Basics.NewClass_TestNG" />
 			<class name="TestNG_Basics.HomeLoan">
-				<methods>
-					<include name="APILoginHome">
-					</include>
-				</methods>
 			</class>
 		</classes>
 	</test>
-
 	<test thread-count="5" name="Car Loan">
 		<classes>
 			<class name="TestNG_Basics.CarLoan">
-				<methods>
-				<exclude name="mobile.*"/>
-				</methods>
 			</class>
 		</classes>
 	</test>

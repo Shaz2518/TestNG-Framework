@@ -1,5 +1,7 @@
 package TestNG_Basics;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class HomeLoan {
@@ -9,6 +11,12 @@ public class HomeLoan {
 	public void webLoginHome()
 	{
 		System.out.println("Web Login Home Loan");
+	}
+	
+	@AfterTest
+	public void endTest()
+	{
+		System.out.println("Execute me at the end");
 	}
 	
 	@Test
@@ -22,5 +30,13 @@ public class HomeLoan {
 	{
 		System.out.println("API Login Home Loan");
 	}
+	
+	@BeforeSuite
+	public void beforeSuite()
+	{
+		System.out.println("********I am the beginning******");
+	}
+	
+	
 
 }

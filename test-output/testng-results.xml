@@ -2,70 +2,152 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-18T22:47:34 IST" name="Loan Department" finished-at="2025-08-18T22:47:34 IST" duration-ms="200">
+  <suite started-at="2025-08-18T23:32:33 IST" name="Loan Department" finished-at="2025-08-18T23:32:34 IST" duration-ms="664">
     <groups>
     </groups>
-    <test started-at="2025-08-18T22:47:34 IST" name="Personal Loan" finished-at="2025-08-18T22:47:34 IST" duration-ms="200">
+    <test started-at="2025-08-18T23:32:33 IST" name="Personal Loan" finished-at="2025-08-18T23:32:34 IST" duration-ms="291">
       <class name="TestNG_Basics.Basic_TestCase">
-        <test-method signature="carLoan()[pri:0, instance:TestNG_Basics.Basic_TestCase@4c12331b]" started-at="2025-08-18T22:47:34 IST" name="carLoan" finished-at="2025-08-18T22:47:34 IST" duration-ms="19" status="PASS">
+        <test-method signature="carLoan()[pri:0, instance:TestNG_Basics.Basic_TestCase@4116aac9]" started-at="2025-08-18T23:32:33 IST" name="carLoan" finished-at="2025-08-18T23:32:33 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoan -->
-        <test-method signature="perLoan()[pri:0, instance:TestNG_Basics.Basic_TestCase@4c12331b]" started-at="2025-08-18T22:47:34 IST" name="perLoan" finished-at="2025-08-18T22:47:34 IST" duration-ms="3" status="PASS">
+        <test-method signature="perLoan()[pri:0, instance:TestNG_Basics.Basic_TestCase@4116aac9]" started-at="2025-08-18T23:32:33 IST" name="perLoan" finished-at="2025-08-18T23:32:33 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- perLoan -->
       </class> <!-- TestNG_Basics.Basic_TestCase -->
-      <class name="TestNG_Basics.CarLoan">
-        <test-method signature="APILoginCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="APILoginCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APILoginCar -->
-        <test-method signature="mobileColorCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="mobileColorCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileColorCar -->
-        <test-method signature="mobileImagesCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="mobileImagesCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileImagesCar -->
-        <test-method signature="mobileLoginCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="mobileLoginCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginCar -->
-        <test-method signature="mobileLogoutCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="mobileLogoutCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLogoutCar -->
-        <test-method signature="mobilePriceCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="mobilePriceCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobilePriceCar -->
-        <test-method signature="webLoginCar()[pri:0, instance:TestNG_Basics.CarLoan@7e6f74c]" started-at="2025-08-18T22:47:34 IST" name="webLoginCar" finished-at="2025-08-18T22:47:34 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCar -->
-      </class> <!-- TestNG_Basics.CarLoan -->
       <class name="TestNG_Basics.HomeLoan">
-        <test-method signature="APILoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@dd05255]" started-at="2025-08-18T22:47:34 IST" name="APILoginHome" finished-at="2025-08-18T22:47:34 IST" duration-ms="3" status="PASS">
+        <test-method signature="APILoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@3857f613]" started-at="2025-08-18T23:32:34 IST" name="APILoginHome" finished-at="2025-08-18T23:32:34 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginHome -->
-        <test-method signature="mobileLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@dd05255]" started-at="2025-08-18T22:47:34 IST" name="mobileLoginHome" finished-at="2025-08-18T22:47:34 IST" duration-ms="3" status="PASS">
+        <test-method signature="mobileLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@3857f613]" started-at="2025-08-18T23:32:34 IST" name="mobileLoginHome" finished-at="2025-08-18T23:32:34 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginHome -->
-        <test-method signature="webLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@dd05255]" started-at="2025-08-18T22:47:34 IST" name="webLoginHome" finished-at="2025-08-18T22:47:34 IST" duration-ms="3" status="PASS">
+        <test-method signature="webLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@3857f613]" started-at="2025-08-18T23:32:34 IST" name="webLoginHome" finished-at="2025-08-18T23:32:34 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginHome -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:TestNG_Basics.HomeLoan@3857f613]" started-at="2025-08-18T23:32:34 IST" name="endTest" finished-at="2025-08-18T23:32:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
       </class> <!-- TestNG_Basics.HomeLoan -->
       <class name="TestNG_Basics.NewClass_TestNG">
-        <test-method signature="homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@6a78afa0]" started-at="2025-08-18T22:47:34 IST" name="homeLoan" finished-at="2025-08-18T22:47:34 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:TestNG_Basics.NewClass_TestNG@489115ef]" started-at="2025-08-18T23:32:33 IST" name="preRequisite" finished-at="2025-08-18T23:32:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@489115ef]" started-at="2025-08-18T23:32:33 IST" name="homeLoan" finished-at="2025-08-18T23:32:33 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoan -->
       </class> <!-- TestNG_Basics.NewClass_TestNG -->
     </test> <!-- Personal Loan -->
+    <test started-at="2025-08-18T23:32:34 IST" name="Car Loan" finished-at="2025-08-18T23:32:34 IST" duration-ms="130">
+      <class name="TestNG_Basics.Basic_TestCase">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG_Basics.Basic_TestCase@4116aac9]" started-at="2025-08-18T23:32:34 IST" name="afterSuite" finished-at="2025-08-18T23:32:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG_Basics.Basic_TestCase -->
+      <class name="TestNG_Basics.CarLoan">
+        <test-method is-config="true" signature="classMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="classMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="APILoginCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="APILoginCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileColorCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="mobileColorCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileColorCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileImagesCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="mobileImagesCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileImagesCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileLoginCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="mobileLoginCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileLogoutCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="mobileLogoutCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogoutCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobilePriceCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="mobilePriceCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilePriceCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="beforeMethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="webLoginCar()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="webLoginCar" finished-at="2025-08-18T23:32:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@33c911a1]" started-at="2025-08-18T23:32:34 IST" name="aftermethod" finished-at="2025-08-18T23:32:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- TestNG_Basics.CarLoan -->
+      <class name="TestNG_Basics.HomeLoan">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNG_Basics.HomeLoan@3857f613]" started-at="2025-08-18T23:32:33 IST" name="beforeSuite" finished-at="2025-08-18T23:32:33 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- TestNG_Basics.HomeLoan -->
+    </test> <!-- Car Loan -->
   </suite> <!-- Loan Department -->
 </testng-results>

@@ -1,5 +1,7 @@
 package TestNG_Basics;
 
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class Basic_TestCase {
@@ -14,5 +16,11 @@ public class Basic_TestCase {
 	public void carLoan()
 	{
 		System.out.println("Car Loan");
+	}
+	
+	@AfterSuite
+	public void afterSuite()
+	{
+		System.out.println("******I am at the end*******");
 	}
 }
