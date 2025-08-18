@@ -30,7 +30,7 @@ public class CarLoan {
 	{
 		System.out.println("Mobile Login Car Loan");
 	}
-	@Test
+	@Test(groups="Smoke")
 	public void mobileLogoutCar()
 	{
 		System.out.println("Mobile Logout Car Loan");

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class HomeLoan {
 
 	
-	@Test
+	@Test(groups="Smoke")
 	public void webLoginHome()
 	{
 		System.out.println("Web Login Home Loan");
