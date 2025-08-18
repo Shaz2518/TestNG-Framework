@@ -15,6 +15,26 @@ public class CarLoan {
 	{
 		System.out.println("Mobile Login Car Loan");
 	}
+	@Test
+	public void mobileLogoutCar()
+	{
+		System.out.println("Mobile Logout Car Loan");
+	}
+	@Test
+	public void mobileImagesCar()
+	{
+		System.out.println("Mobile Images Car Loan");
+	}
+	@Test
+	public void mobilePriceCar()
+	{
+		System.out.println("Mobile Price Car Loan");
+	}
+	@Test
+	public void mobileColorCar()
+	{
+		System.out.println("Mobile Color Car Loan");
+	}
 	
 	@Test
 	public void APILoginCar()
