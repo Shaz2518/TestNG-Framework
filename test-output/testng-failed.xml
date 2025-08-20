@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_Basics.NewClass_TestNG">
+      <class name="TestNG_Basics.CarLoan">
         <methods>
-          <include name="parameterTest"/>
-          <include name="preRequisite"/>
+          <include name="classMethod"/>
+          <include name="beforeMethod"/>
+          <include name="paraDemo"/>
+          <include name="aftermethod"/>
         </methods>
-      </class> <!-- TestNG_Basics.NewClass_TestNG -->
+      </class> <!-- TestNG_Basics.CarLoan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

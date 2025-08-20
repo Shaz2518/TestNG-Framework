@@ -3,6 +3,7 @@ package TestNG_Basics;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class CarLoan {
@@ -61,6 +62,14 @@ public class CarLoan {
 	public void aftermethod()
 	{
 		System.out.println("****** After Method*****");
+	}
+	
+	@Parameters({"URL" , "APIKey/username"})
+	@Test
+	public void paraDemo(String url, String key)
+	{
+		System.out.println("=================" + url);
+		System.out.println("=================" + key);
 	}
 
 }

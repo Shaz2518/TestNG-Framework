@@ -1,68 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T00:45:02 IST" name="Default suite" finished-at="2025-08-19T00:45:02 IST" duration-ms="210">
+  <suite started-at="2025-08-20T21:27:01 IST" name="Loan Department" finished-at="2025-08-20T21:27:02 IST" duration-ms="297">
     <groups>
       <group name="Smoke">
-        <method signature="NewClass_TestNG.homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" name="homeLoan" class="TestNG_Basics.NewClass_TestNG"/>
+        <method signature="HomeLoan.webLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@79079097]" name="webLoginHome" class="TestNG_Basics.HomeLoan"/>
+        <method signature="NewClass_TestNG.homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@7c6908d7]" name="homeLoan" class="TestNG_Basics.NewClass_TestNG"/>
+        <method signature="CarLoan.mobileLogoutCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" name="mobileLogoutCar" class="TestNG_Basics.CarLoan"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-08-19T00:45:02 IST" name="Default test" finished-at="2025-08-19T00:45:02 IST" duration-ms="210">
+    <test started-at="2025-08-20T21:27:01 IST" name="Personal Loan" finished-at="2025-08-20T21:27:01 IST" duration-ms="118">
+      <class name="TestNG_Basics.Basic_TestCase">
+        <test-method signature="carLoan()[pri:0, instance:TestNG_Basics.Basic_TestCase@6ed3ccb2]" started-at="2025-08-20T21:27:01 IST" name="carLoan" finished-at="2025-08-20T21:27:01 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoan -->
+        <test-method signature="perLoan()[pri:0, instance:TestNG_Basics.Basic_TestCase@6ed3ccb2]" started-at="2025-08-20T21:27:01 IST" name="perLoan" finished-at="2025-08-20T21:27:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perLoan -->
+      </class> <!-- TestNG_Basics.Basic_TestCase -->
+      <class name="TestNG_Basics.HomeLoan">
+        <test-method signature="webLoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@79079097]" started-at="2025-08-20T21:27:01 IST" name="webLoginHome" finished-at="2025-08-20T21:27:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHome -->
+        <test-method signature="APILoginHome()[pri:0, instance:TestNG_Basics.HomeLoan@79079097]" started-at="2025-08-20T21:27:01 IST" name="APILoginHome" finished-at="2025-08-20T21:27:01 IST" depends-on-methods="TestNG_Basics.HomeLoan.webLoginHome" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHome -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:TestNG_Basics.HomeLoan@79079097]" started-at="2025-08-20T21:27:01 IST" name="endTest" finished-at="2025-08-20T21:27:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- TestNG_Basics.HomeLoan -->
       <class name="TestNG_Basics.NewClass_TestNG">
-        <test-method is-config="true" signature="preRequisite()[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" started-at="2025-08-19T00:45:02 IST" name="preRequisite" finished-at="2025-08-19T00:45:02 IST" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:TestNG_Basics.NewClass_TestNG@7c6908d7]" started-at="2025-08-20T21:27:01 IST" name="preRequisite" finished-at="2025-08-20T21:27:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequisite -->
-        <test-method signature="homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" started-at="2025-08-19T00:45:02 IST" name="homeLoan" finished-at="2025-08-19T00:45:02 IST" duration-ms="22" status="PASS">
+        <test-method signature="homeLoan()[pri:0, instance:TestNG_Basics.NewClass_TestNG@7c6908d7]" started-at="2025-08-20T21:27:01 IST" name="homeLoan" finished-at="2025-08-20T21:27:01 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoan -->
-        <test-method signature="parameterTest(java.lang.String)[pri:0, instance:TestNG_Basics.NewClass_TestNG@662ac478]" started-at="2025-08-19T00:45:02 IST" name="parameterTest" finished-at="2025-08-19T00:45:02 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'URL' is required by @Test on method parameterTest but has not been marked @Optional or defined
-in C:\Users\localadminuser\AppData\Local\Temp\testng-eclipse-1366171606\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'URL' is required by @Test on method parameterTest but has not been marked @Optional or defined
-in C:\Users\localadminuser\AppData\Local\Temp\testng-eclipse-1366171606\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="parameterTest(java.lang.String)[pri:0, instance:TestNG_Basics.NewClass_TestNG@7c6908d7]" started-at="2025-08-20T21:27:01 IST" name="parameterTest" finished-at="2025-08-20T21:27:01 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parameterTest -->
       </class> <!-- TestNG_Basics.NewClass_TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2025-08-20T21:27:02 IST" name="Car Loan" finished-at="2025-08-20T21:27:02 IST" duration-ms="86">
+      <class name="TestNG_Basics.Basic_TestCase">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG_Basics.Basic_TestCase@6ed3ccb2]" started-at="2025-08-20T21:27:02 IST" name="afterSuite" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG_Basics.Basic_TestCase -->
+      <class name="TestNG_Basics.CarLoan">
+        <test-method is-config="true" signature="classMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="classMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="APILoginCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="APILoginCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileColorCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="mobileColorCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileColorCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileImagesCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="mobileImagesCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileImagesCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileLoginCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="mobileLoginCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobileLogoutCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="mobileLogoutCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogoutCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobilePriceCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="mobilePriceCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilePriceCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="paraDemo(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="paraDemo" finished-at="2025-08-20T21:27:02 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paraDemo -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="beforeMethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="webLoginCar()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="webLoginCar" finished-at="2025-08-20T21:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCar -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNG_Basics.CarLoan@7494f96a]" started-at="2025-08-20T21:27:02 IST" name="aftermethod" finished-at="2025-08-20T21:27:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- TestNG_Basics.CarLoan -->
+      <class name="TestNG_Basics.HomeLoan">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNG_Basics.HomeLoan@79079097]" started-at="2025-08-20T21:27:01 IST" name="beforeSuite" finished-at="2025-08-20T21:27:01 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- TestNG_Basics.HomeLoan -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
 </testng-results>
