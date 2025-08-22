@@ -21,6 +21,7 @@ public class Listeners_Practice implements ITestListener{
 			System.out.println("Listener execution failed");
 			//To get testcase name
 			System.out.println("Method Failing: " + result.getName());
+			
 		}
 	
 }
